@@ -1,0 +1,67 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>checkcredentials</servlet-name>
+  	<display-name>checkcredentials</display-name>
+  	<description></description>
+  	<servlet-class>com.finalproject.checkcredentials</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>checkcred</servlet-name>
+  	<display-name>checkcred</display-name>
+  	<description></description>
+  	<servlet-class>com.finalproject.checkcredentials</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>registerservlet</servlet-name>
+  	<display-name>registerservlet</display-name>
+  	<description></description>
+  	<servlet-class>com.finalproject.registerservlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Upload</servlet-name>
+  	<display-name>Upload</display-name>
+  	<description></description>
+  	<servlet-class>com.finalproject.dao.Upload</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Uploadservlet</servlet-name>
+  	<display-name>Uploadservlet</display-name>
+  	<description></description>
+  	<servlet-class>com.finalproject.Uploadservlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>productdisplayservlet</servlet-name>
+  	<display-name>productdisplayservlet</display-name>
+  	<description></description>
+  	<servlet-class>com.finalproject.productdisplayservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>checkcredentials</servlet-name>
+  	<url-pattern>/checkcredentials</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>checkcred</servlet-name>
+  	<url-pattern>/checkcred</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>registerservlet</servlet-name>
+  	<url-pattern>/registerservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Upload</servlet-name>
+  	<url-pattern>/Upload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Uploadservlet</servlet-name>
+  	<url-pattern>/Uploadservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>productdisplayservlet</servlet-name>
+  	<url-pattern>/productdisplayservlet</url-pattern>
+  </servlet-mapping>
+</web-app>
